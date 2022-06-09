@@ -88,7 +88,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images\docker_ps.JPG)
+![TODO: Update the path with the name of your screenshot of docker ps output](Images\docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -140,7 +140,7 @@ host: "10.3.0.4:5601"
 
 - Run the playbook using command `ansible-playbook filebeat-playbook.yml`, and navigate to `system logs` on your kibana homepage to check that the installation worked as expected. Scroll to `Step 5: Module Status` clicking on `Check Data` at the end of the page. 
 
-![filebeat success](Images\filebeat_success.JPG)
+![filebeat success](Images\filebeat_success.png)
 
 The above steps can also be used to install Metricbeat.
 
