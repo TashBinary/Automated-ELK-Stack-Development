@@ -23,8 +23,8 @@ This document contains the following details:
 
 The main purpose of this network is to expose a **load-balanced** and **monitored** instance of DVWA, the D*mn Vulnerable Web Application.
 
-> *Load balancing* ensures that the application will be highly functional, in addition to restricting access to the network.
-What aspect of security do load balancers protect? What is the advantage of a jump box?
+*Load balancing* ensures that the application will be highly functional, in addition to restricting access to the network. <br>
+
 load balancers increase uptime and reduce chances of failure by distributing and managing network traffic in order to prevent overloading.
 The jump-box provides a layer of security by only allowing authorized users such as system admin to gain access to the network.
 
